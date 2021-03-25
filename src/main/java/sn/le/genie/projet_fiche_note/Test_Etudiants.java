@@ -1,0 +1,19 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package sn.le.genie.projet_fiche_note;
+
+/**
+ *
+ * @author ester maria
+ */
+public class Test_Etudiants {
+    public static void main(String args[]){
+        Etudiants T_etu = new Etudiants("Ali","Noumane","Guelle-Tapeé",23,"782930740","alinomane01@gmail.com");
+        System.out.println(T_etu);
+          
+    }
+    
+}
