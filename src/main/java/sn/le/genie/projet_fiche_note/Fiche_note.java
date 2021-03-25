@@ -15,11 +15,16 @@ public class Fiche_note {
     private int num_fiche;
     private String date;
     
+        public Fiche_note() 
+        {
+        
+        }
+    
     public Fiche_note(int id, int num_fiche, String date) 
-    {
-        this.id = id;
-        this.num_fiche = num_fiche;
-        this.date = date;
+        {
+            this.id = id;
+            this.num_fiche = num_fiche;
+            this.date = date;
         }
     
     public int getid() {

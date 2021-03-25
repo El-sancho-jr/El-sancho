@@ -13,6 +13,11 @@ public class Fillier {
     private int id;
     private String nom;
     private String description;
+
+        public Fillier() 
+        {
+            
+        }
     
     public Fillier(int id, String nom, String description) 
     {

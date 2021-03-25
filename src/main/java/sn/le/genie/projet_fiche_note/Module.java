@@ -16,6 +16,12 @@ public class Module {
     private int coefficient;
     private String description;
     
+    public Module() 
+    {
+        
+        
+    }
+    
     
     public Module(int id,String nom, int volume_horaire, int coefficient, String description) 
     {

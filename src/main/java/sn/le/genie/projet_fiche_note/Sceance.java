@@ -16,6 +16,11 @@ public class Sceance {
     private int heure_fin;
     
     
+    public Sceance() 
+    {
+        
+    }
+    
     public Sceance(int id, String date, int heure_debut, int heure_fin) 
     {
         this.id = id;

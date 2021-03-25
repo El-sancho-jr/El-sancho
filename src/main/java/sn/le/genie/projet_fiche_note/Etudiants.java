@@ -17,6 +17,11 @@ public class Etudiants {
     private String telephone;
     private String email;
     
+    public Etudiants() 
+    {
+        
+        
+    }
     
     public Etudiants(String prenom, String nom, String adresse, int age, String telephone, String email) 
     {

@@ -18,6 +18,11 @@ public class Professeur {
     private String email;
     private String specialite;
     
+    public Professeur() 
+    {
+        
+    }
+    
     public Professeur(String prenom, String nom, String adresse, int age, String telephone, String email, String specialite) 
     {
         this.prenom = prenom;

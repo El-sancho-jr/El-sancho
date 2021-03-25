@@ -15,6 +15,10 @@ public class Evaluation {
     private String date;
     private int duree;
     
+    public Evaluation() 
+    {
+        
+    }
     
     public Evaluation(int id, String type, String date, int duree) 
     {

@@ -13,7 +13,12 @@ public class Groupe {
     private int id;
     private String nom_groupe;
     private String date_creation;
-   
+
+    public Groupe() 
+    {
+        
+    }
+    
     public Groupe(int id, String nom_groupe, String date_creation) 
     {
         this.id = id;
